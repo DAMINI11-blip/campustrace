@@ -2,6 +2,10 @@
 
 CampusTrace is a MERN Stack Lost & Found web application designed to help users report, search, and recover lost items.
 
+# Live Demo
+
+https://campustrace-3gc8rfh4a-damini2.vercel.app
+
 ## Features
 
 * User Registration & Login
