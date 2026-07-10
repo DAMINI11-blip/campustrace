@@ -12,10 +12,13 @@ connectDB()
 const app = express()
 
 // Middleware
-app.use(cors({
-  origin: "https://campustrace-3gc8rfh4a-damini2.vercel.app",
-  credentials: true
-}));
+app.use(
+  cors({
+    origin: "https://campustrace-3gc8rfh4a-damini2.vercel.app",
+    credentials: true,
+  })
+);
+
 app.use(express.json())
 
 // Test Route
